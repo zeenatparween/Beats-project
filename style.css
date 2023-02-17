@@ -1,0 +1,438 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f10;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    margin: 0.15vw;
+}
+.p1-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background: transparent; */
+}
+.p1-nav img{
+    margin-left: 60px;
+}
+.list-item{
+    display: flex;
+}
+.list-item ul{
+    display: flex;
+}
+.list-item li{
+     margin-right:30px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.list-item button{
+    width: 85px;
+    height: 28px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 900;
+    background: rgba(128, 128, 128, 0.257);
+    border: none;
+}
+.p1-main{
+    display: flex;
+     position: relative; 
+     margin-top: 20px;
+}
+.p1-main-left{
+    width:230px;
+    position: relative;
+    left:100px;
+    top:-70px;
+}
+.p1-main-left img{
+    height: 400px;
+}
+.p1-main-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    top:20px;
+}
+.main-right-section{
+   flex-direction: column;
+    position: relative;
+    align-items: center;
+   
+} 
+
+.main-right-section img{
+    width:300px;
+    height:50px;
+    align-items: center;
+    margin-left:40px;
+    bottom:30px;
+   
+}
+.main-right-section h1{
+    font-size:40px;
+    font-weight: 900;
+    margin-bottom:20px;
+}
+.main-right-section h3{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom:20px;
+}
+.main-right-section p{
+    width:330px;
+    font-size: 14px;
+    line-height:25px;
+    margin-bottom:20px;
+} 
+.add-to-list{
+    width:600px;
+    height:40px;
+    padding:5px 10px 5px 10px;
+    border-radius: 5px; 
+     display: flex; 
+     flex-direction: row;
+     width: fit-content;
+     gap:10px;
+     background: rgba(128, 128, 128, 0.257);
+}
+.add-to-list p{
+    width: fit-content;
+    background: transparent;
+  
+}
+ .add-to-list span{
+     font-size:18px;
+     background: transparent;
+} 
+.add-to-list img{
+    width:20px;
+    height: 20px;
+    margin-left: 0px;
+    background: transparent;
+    
+}
+/* specs-container-css */
+
+.specs-nav{
+    
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.specs-nav img{
+   width: 100px;
+   height: 30px;
+}
+.p2-main{
+    /* display: flex; */
+    margin-top:80px;
+    left:120px;
+}
+ .specs-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+} 
+.specs-logo img{
+    width:200px;
+}
+.specs-main{
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.species-main-image{
+    margin-left: 100px;
+    width:200px;
+    height:300px;
+}
+.specs-list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    /* font-size:15px; */
+}
+.specs-list div{
+    margin-bottom: 14px;
+}
+.specs-list p{
+    font-size: 10px;
+}
+.specs-list div:first-child ,.specs-list div:last-child{
+    margin-left:30px;
+}
+
+/* case-section-style */
+.case-section{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+.case-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.case-main-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: row; */
+     column-gap: 70px; 
+}
+.case-main-section img{
+    width:200px;
+    height:250px;
+}
+.case-main-right-section img{
+    width:20px;
+    height:20px;
+    margin: 0px;
+    background: transparent;
+    
+}
+.case-main-right-section p{
+      font-size: 13px;
+      display: inline-block;
+      width: 200px;
+      line-height: 20px;
+      margin-bottom:30px;
+}
+.case-main-right-section span{
+        background-color: rgb(128, 128, 128, 0.257); 
+        display: flex;
+          padding-left: 15px;
+          height:30px;
+          width:130px; 
+          border-radius: 5px;
+          font-size:15px;
+
+          
+    }
+    .case-main-right-section h4{
+        background: transparent;
+    }
+.main-right-section span{
+      padding-left: 15px;
+    background: transparent;
+}
+/* Immune-section-style */
+.immune-body-section{
+    margin:30px 40px 20px 70px;
+    display: flex;
+    flex-direction: row;
+    /* row-gap:10px; */
+    width:800px;
+    height:250px;
+    align-items: center;
+     justify-content:space-evenly; 
+    background-color: rgba(128, 128, 128, 0.051); ;
+
+}
+.immune-left-section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:left;
+    line-height: 30px;
+    background: transparent;
+    border-radius: 15px;
+}
+.immune-left-section h1, p, span, img, label{
+    background: transparent;
+}
+.immune-left-section h1{
+    font-size:18px;
+    display:inline-block;
+    width:200px;
+    background: transparent;
+    
+}
+.immune-left-section p{
+    font-size: 13px;
+    justify-content: left;
+    margin-bottom:10px;
+}
+.immune-left-section span{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    background-color:rgba(128, 128, 128, 0.155);  
+    border-radius: 6px;
+    width:100px;
+    font-size: small;
+}
+.immune-left-section img{
+     scale: 0.1; 
+    background: transparent;
+    
+}
+
+.immune-body-section img{
+    scale:0.8;
+    background: transparent;
+    
+}
+
+/* product-buy-section-style */
+.product-section{
+    margin:20px 70px 30px 70px;
+}
+.product-logo-section{
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+   justify-content: center;  
+   scale: 0.8;
+   margin-bottom: 50px;
+    
+}
+.product-main-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+     /* margin: 20px ;  
+    padding:50px; */
+}
+/* .product-main-section div{
+    width:200px;
+    height:400px;
+
+    background: rgb(128, 128, 128, 0.155); 
+} */
+.product-card img{
+    scale: 0.3;
+     margin-top:-160px; 
+    padding-bottom: 0px;
+}
+.product-card{
+     display: flex; 
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+   border-radius: 8px;
+    width:120px;
+    height:130px;
+    background-color:rgba(128, 128, 128, 0.155);
+    margin: 20px;
+}
+ .product-list{
+    display: flex;
+    flex-direction: row;
+    
+    /* align-items: left; */
+    margin-top:-100px;
+    justify-content: left; 
+    background: transparent; 
+     /* margin-left: -30px; */
+ }
+.product-list p {
+    font-size: 13px;
+}
+.product-list span{
+    font-size:10px;
+}
+.product-list img {
+    width:50px;
+    height:50px;
+    margin-top:-10px;
+    margin-left: 5px;
+}
+
+/* footer-section */
+ .footer-section{
+    margin: 50px 50px 50px 120px;
+ }
+ .footer-main-section{
+    display: flex;
+     gap:130px;
+}
+ .footer-main-section img{
+     width:20px;
+     height:20px;
+    background: transparent;
+ }
+ .footer-list-section{
+    display: flex;
+    flex-direction:row;
+    column-gap: 100px;
+    background: transparent;
+}
+ .footer-list-section ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    background: transparent;
+    font-size: 13px;
+    line-height:20px;
+}
+ .footer-list-section div ul li:first-child{
+    font-size:17px;
+}
+ .footer-subscribe-section{
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+ }
+ .footer-subscribe-section button {
+    width:200px;
+    height:35px;
+    background-color: rgba(222, 184, 135, 0.227);
+    border-radius: 5px;
+    font-size: small;
+    /* margin-right:30px;  */
+ }
+ .footer-subscribe-section button span:first-child{
+      margin-right: 70px; 
+     /* margin-left: -35px; */
+ }
+
+ .footer-subscribe-section button span:nth-child(2){
+     background-color:rgba(138, 122, 100, 0.697);
+     margin: 0px;
+     border-radius: 5px;
+}
+.footer-subscribe-section button span label{
+    width:100px;
+    height:30px;
+}
+ .footer-subscribe-section button img{
+        width:14px;
+        height:14px;
+}
+ .footer-subscribe-section span img{
+     width:15px;
+     height:15px;
+ }
+ .social-media-icons-section{
+    display: flex;
+    flex-direction: row;
+ }
+ .social-media-icons-section img{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+    
+ }
