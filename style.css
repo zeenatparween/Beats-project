@@ -239,7 +239,7 @@ body{
 }
 /* Immune-section-style */
 .immune-body-section{
-/*     margin:50px; */
+     margin-left:80px; 
     display: flex;
     flex-direction: row;
     /* row-gap:10px; */
