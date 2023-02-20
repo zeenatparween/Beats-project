@@ -240,8 +240,8 @@ body{
 /* Immune-section-style */
 .immune-body-section{
      margin-left:120px; 
-    display: flex;
-    flex-direction: row;
+/*     display: flex;
+    flex-direction: row; */
     /* row-gap:10px; */
     width:800px;
     height:250px;
