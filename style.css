@@ -239,14 +239,14 @@ body{
 }
 /* Immune-section-style */
 .immune-body-section{
-    margin:30px 40px 20px 70px;
+    margin:50px;
     display: flex;
     flex-direction: row;
     /* row-gap:10px; */
     width:800px;
     height:250px;
     align-items: center;
-     justify-content:space-evenly; 
+     justify-content:center; 
     background-color: rgba(128, 128, 128, 0.051); ;
 
 }
